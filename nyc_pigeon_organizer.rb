@@ -31,7 +31,7 @@ def nyc_pigeon_organizer(pigeon_data)
       names.each do |name|
         pigeon_names.each do |pigeon_name|
           if name == pigeon_name
-            pigeon_data[pigeon_name][:lives] = [location.to_s]
+            pigeon_list[pigeon_name][:lives] = [location.to_s]
           end
         end
       end
